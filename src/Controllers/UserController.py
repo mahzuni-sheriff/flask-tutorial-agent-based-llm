@@ -1,4 +1,4 @@
-from models.User import createUser, getUserByUsername, updateUser
+from models.User import createUser, getUserByUsername, updateUser, deleteUser
 
 def create(request):
     data = request.get_json()
