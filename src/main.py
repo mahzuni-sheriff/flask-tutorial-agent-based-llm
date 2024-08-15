@@ -1,5 +1,5 @@
 from flask import Flask
-from Routes.Routes import api_blue_print  
+from routes.Routes import api_blue_print  
 
 app = Flask(__name__)
 
